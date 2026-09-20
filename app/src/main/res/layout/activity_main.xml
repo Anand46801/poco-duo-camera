@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:id="@+id/status" android:text="Checking cameras..." android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/check" android:text="Check Dual Rear Cameras" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+ <TextView android:text="Target: two rear cameras → synchronized left/right views → red/cyan anaglyph 3D video." android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"/>
+</LinearLayout>
